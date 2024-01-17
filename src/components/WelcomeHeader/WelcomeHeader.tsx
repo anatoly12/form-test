@@ -31,6 +31,7 @@ export default function WelcomeHeader() {
         </Typography>
         <Image
           src="/icons/welcome-star.svg"
+          priority
           alt="icon"
           width={19.41}
           height={19.41}
