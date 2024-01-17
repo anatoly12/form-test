@@ -1,13 +1,13 @@
 "use client";
 import { Box, Button, Typography } from "@mui/material";
-import WelcomeHeader from "../WelcomeHeader/WelcomeHeader";
-import TextInput from "../TextInput/TextInput";
+import WelcomeHeader from "./WelcomeHeader";
+import TextInput from "./TextInput";
 import Image from "next/image";
 import { useForm } from "react-hook-form";
 import isNicknameValid from "@/validators/isNicknameValid";
 import isUrlValid from "@/validators/isUrlValid";
 import isDateValid from "@/validators/isDateValid";
-import FormSectionHeader from "../FormSectionHeader/FormSectionHeader";
+import FormSectionHeader from "./FormSectionHeader";
 
 export default function Welcome() {
   const { handleSubmit, reset, control } = useForm();

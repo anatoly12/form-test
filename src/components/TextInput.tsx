@@ -2,7 +2,7 @@
 
 import { InputAdornment, Typography, Box, TextField } from "@mui/material";
 import Image from "next/image";
-import { ReactNode, useMemo, useState } from "react";
+import { ReactNode } from "react";
 import { Control, Controller, Validate } from "react-hook-form";
 
 interface TextInputProps {
@@ -44,11 +44,7 @@ export default function TextInput({
               }
             : undefined,
       }}
-      render={({
-        field: { onChange, value },
-        fieldState: { error },
-        formState,
-      }) => (
+      render={({ field: { onChange, value }, fieldState: { error } }) => (
         <Box
           sx={{
             display: "flex",
