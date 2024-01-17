@@ -23,17 +23,18 @@ export default function Welcome() {
         component="form"
         onSubmit={handleSubmit(onSubmit)}
         sx={{
-          px: 1,
+          p: 1,
+          backgroundColor: "#FAF8F5",
         }}
         noValidate
       >
         <Box
           sx={{
-            my: 1,
+            mb: 1,
             px: 1,
             pt: 1,
             border: 1,
-            borderColor: "divider",
+            borderColor: "background.paper",
             borderRadius: "8px",
           }}
         >

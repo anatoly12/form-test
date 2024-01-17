@@ -1,10 +1,144 @@
 @font-face {
-  font-family: Switzer;
-  src: url("/fonts/Switzer-Regular.otf") format("opentype");
+  font-family: switzer;
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local("Switzer"),
+    url(/fonts/Switzer-Regular.otf) format("opentype");
 }
-
-input[type="date"]::-webkit-inner-spin-button,
-input[type="date"]::-webkit-calendar-picker-indicator {
-    display: none;
-    -webkit-appearance: none;
+@font-face {
+  font-family: switzer;
+  font-style: italic;
+  font-weight: 400;
+  src:
+    local("Switzer"),
+    url(/fonts/Switzer-Italic.otf) format("opentype");
+}
+@font-face {
+  font-family: switzer;
+  font-style: normal;
+  font-weight: 100;
+  src:
+    local("Switzer"),
+    url(/fonts/Switzer-Thin.otf) format("opentype");
+}
+@font-face {
+  font-family: switzer;
+  font-style: italic;
+  font-weight: 100;
+  src:
+    local("Switzer"),
+    url(/fonts/Switzer-ThinItalic.otf) format("opentype");
+}
+@font-face {
+  font-family: switzer;
+  font-style: normal;
+  font-weight: 200;
+  src:
+    local("Switzer"),
+    url(/fonts/Switzer-Extralight.otf) format("opentype");
+}
+@font-face {
+  font-family: switzer;
+  font-style: italic;
+  font-weight: 200;
+  src:
+    local("Switzer"),
+    url(/fonts/Switzer-ExtralightItalic.otf) format("opentype");
+}
+@font-face {
+  font-family: switzer;
+  font-style: normal;
+  font-weight: 300;
+  src:
+    local("Switzer"),
+    url(/fonts/Switzer-Light.otf) format("opentype");
+}
+@font-face {
+  font-family: switzer;
+  font-style: italic;
+  font-weight: 300;
+  src:
+    local("Switzer"),
+    url(/fonts/Switzer-LightItalic.otf) format("opentype");
+}
+@font-face {
+  font-family: switzer;
+  font-style: normal;
+  font-weight: 500;
+  src:
+    local("Switzer"),
+    url(/fonts/Switzer-Medium.otf) format("opentype");
+}
+@font-face {
+  font-family: switzer;
+  font-style: italic;
+  font-weight: 500;
+  src:
+    local("Switzer"),
+    url(/fonts/Switzer-MediumItalic.otf) format("opentype");
+}
+@font-face {
+  font-family: switzer;
+  font-style: normal;
+  font-weight: 600;
+  src:
+    local("Switzer"),
+    url(/fonts/Switzer-Semibold.otf) format("opentype");
+}
+@font-face {
+  font-family: switzer;
+  font-style: italic;
+  font-weight: 600;
+  src:
+    local("Switzer"),
+    url(/fonts/Switzer-SemiboldItalic.otf) format("opentype");
+}
+@font-face {
+  font-family: switzer;
+  font-style: normal;
+  font-weight: 700;
+  src:
+    local("Switzer"),
+    url(/fonts/Switzer-Bold.otf) format("opentype");
+}
+@font-face {
+  font-family: switzer;
+  font-style: italic;
+  font-weight: 700;
+  src:
+    local("Switzer"),
+    url(/fonts/Switzer-BoldItalic.otf) format("opentype");
+}
+@font-face {
+  font-family: switzer;
+  font-style: normal;
+  font-weight: 800;
+  src:
+    local("Switzer"),
+    url(/fonts/Switzer-Extrabold.otf) format("opentype");
+}
+@font-face {
+  font-family: switzer;
+  font-style: italic;
+  font-weight: 800;
+  src:
+    local("Switzer"),
+    url(/fonts/Switzer-ExtraboldItalic.otf) format("opentype");
+}
+@font-face {
+  font-family: switzer;
+  font-style: normal;
+  font-weight: 900;
+  src:
+    local("Switzer"),
+    url(/fonts/Switzer-Black.otf) format("opentype");
+}
+@font-face {
+  font-family: switzer;
+  font-style: italic;
+  font-weight: 900;
+  src:
+    local("Switzer"),
+    url(/fonts/Switzer-BlackItalic.otf) format("opentype");
 }
