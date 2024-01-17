@@ -24,7 +24,6 @@ export default function Welcome() {
         onSubmit={handleSubmit(onSubmit)}
         sx={{
           p: 1,
-          backgroundColor: "#FAF8F5",
         }}
         noValidate
       >

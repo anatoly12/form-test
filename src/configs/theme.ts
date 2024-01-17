@@ -41,6 +41,11 @@ const theme = createTheme({
     },
     MuiInput: {
       styleOverrides: {
+        root: {
+          "&.Mui-error": {
+            color: "#FF4141",
+          },
+        },
         input: {
           fontWeight: 300,
         },
